@@ -1,9 +1,14 @@
 <template>
   <div class="product_dis">
     <div v-for="el in products" :key="el.product_id" class="product_item">
-      <div class="item_header">
-        <h3>{{ el.product_name }} - {{ el.product_volume }}</h3>
-      </div>
+      <router-link
+        :to="{ name: 'single_product', params: { id: el.product_id } }"
+        class="item_header"
+      >
+        <h3 class="product_title">
+          {{ el.product_name }} - {{ el.product_volume }}
+        </h3>
+      </router-link>
       <div class="product_center">
         <button
           :class="el.product_add ? 'disabled add_btn' : 'add_btn'"
@@ -50,9 +55,6 @@ export default {
     itemAction(payload, string) {
       this.$store.dispatch(string + "Action", payload);
     },
-  },
-  mounted() {
-    console.log(this.data);
   },
 };
 </script>

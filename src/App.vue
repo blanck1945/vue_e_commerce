@@ -2,15 +2,18 @@
   <div id="app">
     <Navbar />
     <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "./layout/Navbar";
+import Footer from "./layout/Footer";
 export default {
   name: "App",
   components: {
     Navbar,
+    Footer,
   },
 };
 </script>
@@ -21,7 +24,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: $l_blue;
+  background-color: $_white;
   color: #2c3e50;
 }
 </style>

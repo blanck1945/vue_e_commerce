@@ -1,0 +1,53 @@
+export const UserRecomend = [
+    {
+        product_id: 10,
+        product_name: "Bloom Into You (Light Novel): Regarding Saeki Sayaka",
+        product_volume: 1,
+        product_price: 11.90,
+        product_author: "Hitoma Iruma",
+        product_add: false,
+        product_rank: 52.596,
+        product_img: "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/6427/9781642757545.jpg",
+        product_desc: "Saeki Sayaka has always been an old soul - serious and reserved, preferring to focus on her studies rather than make friends. Until, that is, a romantic confession from another girl in middle school turns her carefully ordered world upside down. Though none of her classes have prepared her for this, Saeki must now come to terms with her sexuality in this gentle, coming-of-age novel about grappling with first love, growing up, and relating to other people.",
+        product_format: "Paperback",
+        product_pages: 228,
+        product_dimention: "142 x 188 x 15mm | 181,44g",
+        product_publish_day: "  03 Apr 2020",
+        product_editor: "Seven Seas Entertainment, LLC",
+        product_publish_location: "West Hollywood, United States",
+        product_languaje: "English",
+        product_ISBN10: 1642757543,
+        product_ISBN13: 9781642757545,
+        product_similar: ["Citrus", "Sadamaki Koto", "Bloom into You"],
+        product_seller: 1,
+        product_percentage: 8,
+        product_category: "Yuri"
+    },
+    {
+        product_id: 21,
+        product_name: "A Tropical Fish Yearns for Snow",
+        product_volume: 3,
+        product_price: 9.90,
+        product_author: " Makoto Hagino ",
+        product_add: false,
+        product_rank: 10.329,
+        product_img: "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/9747/9781974710607.jpg",
+        product_desc: [
+            "When her dad gets a job overseas, Konatsu Amano has to leave the Tokyo life she's always known and relocate to a small seaside town to stay with her aunt. The move also means starting a new school surrounded by complete strangers, and it's a lot to handle for a girl who has trouble with change. But on her first day in her new town, Konatsu is instantly drawn to Koyuki, an older girl who is the sole member of the Aquarium Club. Konatsu's introverted tendencies are hard for her to overcome, but maybe she's found something worth coming out of her shell for?",
+            "Koyuki and Konatsu, each lonely in her own way, are the only two members of the Nanahama High School Aquarium Club. As they spend time together, they discover that they are increasingly drawn to each other. When they go to the town summer festival together, Konatsu is finally able to ask why Koyuki spoke to her that first day at the aquarium open house. But Koyuki doesn't have an easy answer, and her stumbling reply makes the mood uncomfortable. Will this new awkwardness force a distance between them?"
+        ],
+        product_format: "Paperback",
+        product_pages: 168,
+        product_dimention: "127 x 191 x 15mm | 170g ",
+        product_publish_day: "  11 Jun 2020",
+        product_editor: "Viz Media, Subs. of Shogakukan Inc",
+        product_publish_location: "San Francisco, United States",
+        product_languaje: "English",
+        product_ISBN10: 1974710602,
+        product_ISBN13: 9781974710607,
+        product_similar: ["Citrus", "Sadamaki Koto", "Bloom into You"],
+        product_seller: 1,
+        product_percentage: 10,
+        product_category: "Yuri"
+    }
+]

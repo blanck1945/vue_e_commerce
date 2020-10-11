@@ -1,0 +1,97 @@
+.book_card {
+  width: 90px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  margin: 0 5px;
+  margin-top: 2px;
+  .item_header {
+    text-decoration: none;
+    min-height: 85%;
+    width: 90%;
+    .header_div {
+      min-height: 60%;
+      width: 100%;
+      margin-top: 2px;
+      .book_img {
+        width: 55px;
+        height: 75px;
+      }
+      .header_text {
+        font-size: 0.5rem;
+        cursor: pointer;
+        color: $_black;
+        min-height: 10px;
+      }
+      .header_text:hover {
+        text-decoration: underline;
+      }
+    }
+    .center_div {
+      min-height: 25px;
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      .center_text {
+        color: $_black;
+        font-size: 0.5rem;
+        font-weight: 300;
+      }
+      .star_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .star_icon {
+          margin-top: 2px;
+          font-size: 0.6rem;
+          color: $s_grey;
+        }
+        .yell {
+          color: gold;
+        }
+      }
+    }
+    .footer_div {
+      min-height: 35px;
+      .under_price {
+        color: $m_grey;
+        font-size: 0.4rem;
+        font-weight: 300;
+        text-decoration: line-through;
+      }
+      .violet_price {
+        color: $_book_v;
+        font-weight: 300;
+        font-size: 0.7rem;
+      }
+      .dis_price {
+        color: $_black;
+        font-weight: 300;
+        font-size: 0.5rem;
+      }
+    }
+  }
+  .add_btn {
+    min-height: 20px;
+    width: 90%;
+    background-color: $_book;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    .add_text {
+      font-size: 0.5rem;
+      color: $_white;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+  }
+  .add_btn:hover {
+    background-color: $h_book;
+    transition: 0.2s ease-in-out;
+  }
+}
+.book_card:hover {
+  background-color: $_white;
+}

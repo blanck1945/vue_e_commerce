@@ -1,0 +1,54 @@
+.center_nav {
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  padding: 0 20px;
+  background-color: $nav;
+  .book_logo {
+    color: $_white;
+    z-index: 4;
+    cursor: pointer;
+    width: 130px;
+  }
+  .input_box {
+    height: 50%;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $_white;
+    margin: 0 2px;
+    margin-left: 15px;
+    .search_icon {
+      width: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 99%;
+      cursor: pointer;
+      z-index: 4;
+      border-right: 1px solid $p_grey;
+      color: $s_grey;
+    }
+    .search_icon:hover {
+      color: $_book_v;
+      transition: 0.2s ease-in-out;
+    }
+    .input_field {
+      border: none;
+      outline: none;
+      padding-left: 4px;
+      height: 96%;
+      font-size: 0.7rem;
+      width: 92%;
+    }
+  }
+  .search_box {
+    display: flex;
+    align-items: center;
+    width: 20%;
+  }
+}

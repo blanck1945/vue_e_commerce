@@ -14,11 +14,16 @@
       height: 35px;
       border-radius: 5px 5px 0 0;
       display: flex;
+      text-decoration: none;
       align-items: center;
       justify-content: center;
       color: $_white;
       border-bottom: 1px solid $_black;
       background-color: $l_blue;
+    }
+    .item_header:hover > .product_title {
+      color: $_black;
+      transition: 0.3 ease-in-out;
     }
   }
   .product_center {

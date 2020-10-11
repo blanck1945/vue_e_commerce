@@ -25,3 +25,51 @@
   color: $_white;
   border: 1px solid $_white;
 }
+
+.search_btn {
+  border: none;
+  color: $_white;
+  width: 40%;
+  margin: 0 3px;
+  height: 25px;
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: $_book;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.search_btn:hover {
+  background-color: $h_book;
+  transition: 0.2s ease-in-out;
+}
+.ad_btn {
+  @extend .search_btn;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.5px solid $m_grey;
+  color: $m_grey;
+  transition: 0.2s ease-in-out;
+}
+.ad_btn:hover {
+  color: $_white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.5px solid $_white;
+  transition: 0.2s ease-in-out;
+}
+
+.login_router {
+  text-decoration: none;
+}
+
+.g_text {
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: $_black;
+}
+
+.strong {
+  font-weight: 700;
+}

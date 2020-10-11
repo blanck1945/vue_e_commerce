@@ -1,0 +1,91 @@
+.down_nav {
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  justify-content: space-evenly;
+  .down_max {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    .nav_left {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .link_text {
+        font-weight: 300;
+        font-size: 0.5rem;
+        color: $_black;
+        text-decoration: none;
+        margin: 0 6px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-bottom: 1px solid white;
+        transition: 0.2s ease-in-out;
+      }
+      .link_text:hover {
+        border-bottom: 1px solid $_black;
+        transition: 0.2s ease-in-out;
+      }
+    }
+    .right_nav {
+      display: flex;
+      width: 30%;
+      justify-content: space-between;
+      margin-right: 5px;
+      .currency_sele {
+        margin: 0 4px;
+        border: none;
+      }
+      .cart_box {
+        height: 20px;
+        width: 55%;
+        display: flex;
+        padding-right: 5px;
+        flex-direction: row;
+        background-color: $_book_v;
+        .cart_total {
+          color: $_white;
+          font-size: 0.5rem;
+          height: 50%;
+          display: flex;
+          width: 65%;
+          align-items: center;
+          justify-content: center;
+          padding-right: 9px;
+          padding-left: 9px;
+          margin-left: 3px;
+          border-right: 1px solid $s_grey;
+        }
+        .link_route {
+          text-decoration: none;
+          min-width: 20%;
+          margin: 0 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .fix {
+            background-color: $_book_v;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $_white;
+            font-size: 0.6rem;
+            height: 20px;
+            width: 10%;
+            cursor: pointer;
+            border: none;
+            .icon_cart {
+              margin-left: 4px;
+              font-size: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

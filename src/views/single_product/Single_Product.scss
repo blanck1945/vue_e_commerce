@@ -1,0 +1,90 @@
+.single_box {
+  width: 85%;
+  min-height: 40vh;
+  font-family: $roboto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: $_white;
+  .single_up {
+    display: flex;
+    .box_data {
+      display: flex;
+      padding: 8px;
+      margin: 10px 0;
+      width: 70%;
+      min-height: 215px;
+      background-color: white;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      .data_img {
+        width: 170px;
+        height: 200px;
+      }
+      .data_text {
+        margin: 0 8px;
+        margin-left: 35px;
+        width: 400px;
+        .text_header {
+          padding-left: 2px;
+          color: $_black;
+          font-size: 1rem;
+          display: flex;
+          height: 25px;
+          border-bottom: 0.5px solid $_white;
+          align-items: center;
+          justify-content: flex-start;
+        }
+        .data_score {
+          .format_box {
+            display: flex;
+            color: $p_grey;
+            margin: 3px 0;
+            font-size: 0.7rem;
+            font-weight: 300;
+            .format_text {
+              margin: 0 4px;
+            }
+            .mar_tp {
+              margin-top: 4px;
+              color: $_black;
+              font-weight: 700;
+            }
+            .text_para {
+              margin-top: 5px;
+              font-size: 0.6rem;
+            }
+            .icon_te {
+              background-color: $_white;
+              cursor: pointer;
+              color: darkgrey;
+              font-size: 0.8rem;
+              border-radius: 50%;
+              padding: 6px;
+              margin: 0 5px;
+            }
+            .icon_t {
+              transition: 0.3s ease-in-out;
+            }
+            .icon_mail:hover {
+              background-color: $s_grey;
+              color: $_white;
+            }
+            .icon_fb:hover {
+              background-color: $s_grey;
+              color: $facebook;
+            }
+            .icon_tw:hover {
+              background-color: $s_grey;
+              color: $tw;
+            }
+            .icon_pinterest:hover {
+              background-color: $s_grey;
+              color: $pinterest;
+            }
+          }
+        }
+      }
+    }
+  }
+}

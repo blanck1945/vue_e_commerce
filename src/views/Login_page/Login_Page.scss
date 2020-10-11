@@ -1,0 +1,83 @@
+.login_div {
+  width: 100%;
+  height: 200px;
+  margin-top: 2px;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .left_div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .login_header {
+      color: $_black;
+      font-size: 0.6rem;
+      width: 60%;
+      text-align: left;
+      margin: 4px 0;
+      margin-bottom: 5px;
+    }
+    .check_box {
+      width: 60%;
+      height: 20px;
+      display: flex;
+      justify-content: left;
+      margin: 2px 0;
+      .check_label {
+        height: 20px;
+        width: 50%;
+        margin-top: 4px;
+        font-size: 0.5rem;
+        color: $_black;
+      }
+      .input_check {
+        transform: scale(1.5);
+        cursor: pointer;
+      }
+    }
+    .login_fo {
+      color: $_black;
+      font-size: 0.6rem;
+      margin-bottom: 3px;
+      width: 60%;
+      text-align: right;
+      font-weight: 300;
+    }
+    .input_field {
+      width: 60%;
+      height: 25px;
+      border: 0.3px solid $s_grey;
+      color: $p_grey;
+      padding-left: 4px;
+      margin: 2px 0;
+      font-size: 0.5rem;
+    }
+    .reminder {
+      font-size: 0.5rem;
+      font-weight: 300;
+      margin-bottom: 4px;
+      color: rgb(204, 25, 25);
+      width: 60%;
+      text-align: left;
+    }
+    .input_field:focus {
+      border: 0.3px solid black;
+    }
+  }
+  .right_div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    .input_field {
+      width: 60%;
+      height: 25px;
+      padding-left: 4px;
+      color: $p_grey;
+      font-size: 0.6rem;
+    }
+  }
+}

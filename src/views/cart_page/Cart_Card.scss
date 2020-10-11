@@ -1,0 +1,89 @@
+.cart_card {
+  width: 98%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-bottom: 0.5px solid $s_grey;
+  .image_box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    .pro_img {
+      height: 90%;
+      margin: 5px 4px;
+      width: 20%;
+    }
+    .box_data {
+      display: flex;
+      height: 90%;
+      width: 80%;
+      margin: auto 0;
+      margin-left: 4px;
+      flex-direction: column;
+      .data_name {
+        text-align: left;
+        font-size: 0.6rem;
+      }
+      .data_text {
+        @extend .data_name;
+        font-weight: 300;
+      }
+      .data_price {
+        width: 100%;
+        text-align: left;
+        color: $_book_v;
+        font-weight: 300;
+        font-size: 0.6rem;
+      }
+    }
+  }
+  .right_box {
+    width: 50%;
+    height: 100%;
+    .right_div {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      margin-top: 5px;
+      .select_box {
+        display: flex;
+        align-items: center;
+        .right_text {
+          margin-right: 5px;
+          color: $p_grey;
+          font-weight: 300;
+          font-size: 0.6rem;
+        }
+        .select_div {
+          width: 10%;
+          width: 60%;
+          height: 24px;
+          color: $m_grey;
+          border: 1px solid $_white;
+          font-size: 0.6rem;
+        }
+      }
+      .amount_text {
+        font-size: 0.6rem;
+        color: $_book_v;
+        margin-top: 10px;
+      }
+      .remove_btn {
+        background-color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 4px 10px;
+        font-size: 0.6rem;
+        border: 1px solid $s_grey;
+        color: $m_grey;
+        transition: 0.2s ease-in-out;
+      }
+      .remove_btn:hover {
+        background-color: $_white;
+        transition: 0.2s ease-in-out;
+      }
+    }
+  }
+}
